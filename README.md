@@ -29,6 +29,6 @@ $ curl -s "http://localhost:1323/?contract=0x3BA4c387f786bFEE076A58914F5Bd38d668
   "UserAddr": "0x5C4A4e39542BeDF97E827f4601e66706CFc5b662",
   "Balance": "3.2",
   "Contract": "0x3BA4c387f786bFEE076A58914F5Bd38d668B42c3",
-  "
+  "Error": ""
 }
 ```
