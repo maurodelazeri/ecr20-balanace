@@ -24,7 +24,7 @@ type Result struct {
 
 func checkBalance(contract string, addr string) Result {
 	result := Result{}
-	client, err := ethclient.Dial("https://empty-divine-sky.matic.quiknode.pro/055c547ecf53b5f1e5fbedf40433c18a72facbed/")
+	client, err := ethclient.Dial("ENDPOINT")
 	if err != nil {
 		result.Error = err.Error()
 		return result
